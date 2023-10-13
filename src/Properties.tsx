@@ -1,8 +1,11 @@
 import { Properties } from "./Interface";
+import KatieZaferes from "../images/user pictures/katie-zaferes.png";
+import WeddingPictures from "../images/user pictures/wedding-photography.png";
+import MountainBike from "../images/user pictures/mountain-bike.png";
 
 export const userData: Properties[] = [
     {
-        image: "../images/user pictures/katie-zaferes.png",
+        image: `${KatieZaferes}`,
         rating: "5.0",
         comments: 6,
         location: "USA",
@@ -12,7 +15,7 @@ export const userData: Properties[] = [
         isOnline: false,
     },
     {
-        image: "../images/user pictures/wedding-photography.png",
+        image: `${WeddingPictures}`,
         rating: "5.0",
         comments: 30,
         location: "USA",
@@ -22,7 +25,7 @@ export const userData: Properties[] = [
         isOnline: true,
     },
     {
-        image: "../images/user pictures/mountain-bike.png",
+        image: `${MountainBike}`,
         rating: "4.8",
         comments: 6,
         location: "USA",
